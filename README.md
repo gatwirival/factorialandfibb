@@ -61,7 +61,7 @@ Timing: Uses System.nanoTime() to measure how long the calculation takes.
 
 > I prefer using iteration in fibonacci because :It iuns in O(n) time complexity instead of O(2^n).
 Works efficiently even for large numbers (e.g., 50, 100, etc.) without stack overflow.
+...
 > While in factorial recursion is better because: It is faster because it avoids function call overhead.
-Uses O(1) space, since it only maintains a single variable.
-No risk of stack overflow, even for large n.
+Uses O(1) space, since it only maintains a single variable and has no risk of stack overflow, even for large n.
 
