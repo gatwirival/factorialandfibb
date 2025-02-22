@@ -32,7 +32,7 @@ Computes the factorial recursively.
 
 Timing: Uses System.nanoTime() to measure how long the calculation takes.
 
-## Fibonacci
+## [Fibonacci](https://github.com/gatwirival/factorialandfibb/blob/main/src/fibonacci.java)
 What Does It Do?
 This program calculates the Fibonacci number at a specific position in the Fibonacci sequence. 
 The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones (e.g., 0, 1, 1, 2, 3, 5, 8, 13, ...).
@@ -59,4 +59,9 @@ Computes the Fibonacci number iteratively.
 
 Timing: Uses System.nanoTime() to measure how long the calculation takes.
 
-> 
+> I prefer using iteration in fibonacci because :It iuns in O(n) time complexity instead of O(2^n).
+Works efficiently even for large numbers (e.g., 50, 100, etc.) without stack overflow.
+> While in factorial recursion is better because: It is faster because it avoids function call overhead.
+Uses O(1) space, since it only maintains a single variable.
+No risk of stack overflow, even for large n.
+
