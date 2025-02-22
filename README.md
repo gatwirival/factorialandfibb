@@ -23,8 +23,9 @@ It also measures how long it takes to compute the factorial.
 - Output: It prints the factorial and the time taken (in nanoseconds).
 
   ## Output
-file:///home/gatwiri/Pictures/Screenshots/Screenshot%20from%202025-02-22%2009-39-09.png
--29:-8:85:12
+  ![Screenshot from 2025-02-22 09-39-09](https://github.com/user-attachments/assets/f1a816e8-8a66-4b97-8497-5d43952b874c)
+
+
 ## Code Highlights
 Method: factorial(int n)
 
