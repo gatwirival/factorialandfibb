@@ -51,9 +51,9 @@ It also measures how long it takes to compute the Fibonacci number.
 
 - Output: It prints the Fibonacci number and the time taken (in nanoseconds).
   ## Output
-  ![Screenshot from 2025-02-22 10-04-52](https://github.com/user-attachments/assets/6901e24e-033e-4eec-9ac2-24653c9747e4)
   
-  ## Code Highlights
+  ## Code ![Screenshot from 2025-02-22 11-49-09](https://github.com/user-attachments/assets/389db786-ec41-4a8a-b296-3507fd827bd9)
+Highlights
 Method: fibonacci(int n)
 
 Computes the Fibonacci number iteratively.
