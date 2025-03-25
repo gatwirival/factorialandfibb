@@ -1,5 +1,3 @@
-//VALENTINE GATWIRI
-//EBS3/58403/22
 import java.util.Scanner;
 
     public class factorial {
