@@ -4,6 +4,7 @@
 This documentation explains two simple Java programs that calculate the factorial of a number and the Fibonacci sequence up to a given number. 
 Both programs also measure how long it takes to perform these calculations. Let’s break it down!
 ## [Factorial](https://github.com/gatwirival/factorialandfibb/blob/main/src/factorial.java)
+
  ### What Does It Do?
  This program calculates the factorial of a number (e.g., 5!) is the product of all positive integers up to that number. For example:
 
@@ -19,7 +20,7 @@ It also measures how long it takes to compute the factorial.
 
     Otherwise, it multiplies the number by the factorial of the number minus one.
 
-- Output: It prints the factorial and the time taken (in nanoseconds).
+- Output: It prints the factorial and the time taken (nanoseconds).
 
   ## Output
 ![Screenshot from 2025-02-22 09-39-09](https://github.com/user-attachments/assets/218f7bd1-9624-406f-af71-e1d49f3a7397)
@@ -67,8 +68,6 @@ Works efficiently even for large numbers (e.g., 50, 100) without stack overflow.
  > While in factorial, recursion is better because: It is faster because it avoids function call overhead.
 Uses O(1) space, since it only maintains a single variable and has no risk of stack overflow, even for large n(number).
 
-
-
 ## [ Insertion Sort](https://github.com/gatwirival/factorialandfibb/blob/main/src/insertionsort.java) 
 
 This program implements the Insertion Sort algorithm to sort an array of integers in ascending order.
@@ -82,14 +81,14 @@ This program implements the Insertion Sort algorithm to sort an array of integer
 ### How It Works
 The insertionSort method iterates through the array, picking one element at a time.It shifts larger elements to the right to make space for the current element in its correct position. The sorted portion of the array grows with each iteration.
 ### Output
-file:///home/gatwiri/Pictures/Screenshots/Screenshot%20from%202025-03-28%2013-12-02.png
 
+![Screenshot from 2025-03-28 13-12-02](https://github.com/user-attachments/assets/4631d954-7fb3-4dc4-9517-2ebd6becd75a)
 
-## Matrix Operations 
+## [Matrix Operations](https://github.com/gatwirival/factorialandfibb/blob/main/src/matrix.java) 
 
 This program performs element-wise operations (addition, subtraction, and multiplication) on two 1D arrays.
 
-How It Works
+### How It Works
 Two arrays A and B of size 4 are defined.
 
 Three operations are performed on corresponding elements of A and B:
@@ -108,6 +107,7 @@ The results are printed.
 `main(String[] args)` – Performs operations and displays results.
 
 ## Output
+![Screenshot from 2025-03-28 14-12-16](https://github.com/user-attachments/assets/899f18a3-b9b8-463c-83cf-51383720a772)
 
 ### Merge Sort (Ascending Order) 
 This program implements the Merge Sort algorithm to sort an array in ascending order.
@@ -120,10 +120,11 @@ Conquer – Each half is sorted recursively.
 Merge – The sorted halves are merged back together in order.
 
 ### Code Structure
-merge(int arr[], int left, int mid, int right) – Merges two sorted subarrays.
+`merge(int arr[], int left, int mid, int right)` – Merges two sorted subarrays.
 
-sort(int arr[], int left, int right) – Recursively sorts the array.
+`sort(int arr[], int left, int right)` – Recursively sorts the array.
 ### Output
+
 
 ## Merge Sort (Descending Order) 
 This  program implements Merge Sort to sort an array in descending order.
@@ -136,6 +137,9 @@ Conquer – Each half is sorted recursively.
 Merge – The sorted halves are merged back in descending order.
 
 ### Code Structure
-merge(int arr[], int left, int mid, int right) – Merges two sorted subarrays in descending order.
+`merge(int arr[], int left, int mid, int right)` – Merges two sorted subarrays in descending order.
 
-sort(int arr[], int left, int right) – Recursively sorts the array.
+`sort(int arr[], int left, int right)` – Recursively sorts the array.
+### Output
+
+
