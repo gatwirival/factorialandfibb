@@ -1,5 +1,5 @@
-## Author:VALENTINE GATWIRI
-##       :EBS3/58403/22
+### Author:VALENTINE GATWIRI
+###       :EBS3/58403/22
 ## Language: Java
 ## Factorial and Fibonacci Programs
 This documentation explains two simple Java programs that calculate the factorial of a number and the Fibonacci sequence up to a given number. 
@@ -66,3 +66,75 @@ Works efficiently even for large numbers (e.g., 50, 100, etc.) without stack ove
 > While in factorial, recursion is better because: It is faster because it avoids function call overhead.
 Uses O(1) space, since it only maintains a single variable and has no risk of stack overflow, even for large n(number).
 
+## Insertion Sort 
+This program implements the Insertion Sort algorithm to sort an array of integers in ascending order.
+
+### How It Works
+The insertionSort method iterates through the array, picking one element at a time.
+
+It shifts larger elements to the right to make space for the current element in its correct position.
+
+The sorted portion of the array grows with each iteration.
+
+### Code Structure
+insertionSort(int[] arr) – Sorts the array using insertion sort.
+
+printArray(int[] arr) – Prints the array elements.
+
+main(String[] args) – Runs the program with a sample array {12, 11, 13, 5, 6}.
+
+### Output
+
+## Matrix Operations 
+This program performs element-wise operations (addition, subtraction, and multiplication) on two 1D arrays.
+
+How It Works
+Two arrays A and B of size 4 are defined.
+
+Three operations are performed on corresponding elements of A and B:
+
+Sum (A + B)
+
+Difference (A - B)
+
+Element-wise Product (A * B)
+
+The results are printed.
+
+### Code Structure
+`printMatrix(int[] matrix)` – Prints array elements.
+
+`main(String[] args)` – Performs operations and displays results.
+
+## Output
+
+### Merge Sort (Ascending Order) 
+This program implements the Merge Sort algorithm to sort an array in ascending order.
+
+### How It Works
+Divide – The array is recursively split into two halves until single elements remain.
+
+Conquer – Each half is sorted recursively.
+
+Merge – The sorted halves are merged back together in order.
+
+### Code Structure
+merge(int arr[], int left, int mid, int right) – Merges two sorted subarrays.
+
+sort(int arr[], int left, int right) – Recursively sorts the array.
+### Output
+
+## Merge Sort (Descending Order) 
+This  program implements Merge Sort to sort an array in descending order.
+
+### How It Works
+Divide – The array is recursively split into two halves until only single elements remain.
+
+Conquer – Each half is sorted recursively.
+
+Merge – The sorted halves are merged back in descending order.
+
+### Code Structure
+merge(int arr[], int left, int mid, int right) – Merges two sorted subarrays in descending order.
+
+sort(int arr[], int left, int right) – Recursively sorts the array.

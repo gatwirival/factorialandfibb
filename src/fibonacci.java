@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class fibonacci {
@@ -28,5 +27,4 @@ public class fibonacci {
     }
 }
 
-    
 
