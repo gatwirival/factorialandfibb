@@ -1,8 +1,9 @@
 ### Author:VALENTINE GATWIRI:EBS3/58403/22
 ## Language: Java
 ## Factorial and Fibonacci Programs
-This documentation explains two simple Java programs that calculate the factorial of a number and the Fibonacci sequence up to a given number. 
-Both programs also measure how long it takes to perform these calculations. Let’s break it down!
+This documentation explains six simple Java programs that calculate the factorial of a number and the Fibonacci sequence up to a given number,implements sorting algorithms, and carry out matrix operations.
+
+Fibonacci and factorial  programs also measure how long it takes to perform these calculations. Let’s break it down!
 ## [Factorial](https://github.com/gatwirival/factorialandfibb/blob/main/src/factorial.java)
 
  ### What Does It Do?
@@ -11,7 +12,7 @@ Both programs also measure how long it takes to perform these calculations. Let�
 `5! = 5 × 4 × 3 × 2 × 1 = 120`
 
 It also measures how long it takes to compute the factorial.
-## How Does It Work?
+### How Does It Work?
 - Input: The program asks you to enter a number.
 
 - Calculation: It uses a recursive method to compute the factorial.
@@ -22,7 +23,7 @@ It also measures how long it takes to compute the factorial.
 
 - Output: It prints the factorial and the time taken (nanoseconds).
 
-  ## Output
+  ### Output
 ![Screenshot from 2025-02-22 09-39-09](https://github.com/user-attachments/assets/218f7bd1-9624-406f-af71-e1d49f3a7397)
 
 
@@ -35,13 +36,13 @@ Timing: Uses System.nanoTime() to measure how long the calculation takes.
 
 ## [Fibonacci](https://github.com/gatwirival/factorialandfibb/blob/main/src/fibonacci.java)
 
-## What Does It Do?
+### What Does It Do?
 This program calculates the Fibonacci number at a specific position in the Fibonacci sequence. 
 The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones (e.g., 0, 1, 1, 2, 3, 5, 8, 13, ...).
 
 It also measures how long it takes to compute the Fibonacci number.
 
- ## How Does It Work?
+ ### How Does It Work?
 - Input: The program asks you to enter a number (position in the Fibonacci sequence).
 
 - Calculation: It uses an iterative method to compute the Fibonacci number.
@@ -51,11 +52,11 @@ It also measures how long it takes to compute the Fibonacci number.
   Otherwise, it iteratively adds the previous two numbers to compute the result.
 
 - Output: It prints the Fibonacci number and the time taken (in nanoseconds).
-  ## Output
+  ### Output
   
  ![Screenshot from 2025-02-22 11-49-09](https://github.com/user-attachments/assets/389db786-ec41-4a8a-b296-3507fd827bd9)
  
-## Code Highlights
+### Code Highlights
 Method: fibonacci(int n)
 
 Computes the Fibonacci number iteratively.
@@ -124,6 +125,7 @@ Merge – The sorted halves are merged back together in order.
 
 `sort(int arr[], int left, int right)` – Recursively sorts the array.
 ### Output
+![Screenshot from 2025-03-28 14-14-05](https://github.com/user-attachments/assets/aedfd687-ac7e-480d-94fb-2d25e9607aa1)
 
 
 ## Merge Sort (Descending Order) 
@@ -142,4 +144,5 @@ Merge – The sorted halves are merged back in descending order.
 `sort(int arr[], int left, int right)` – Recursively sorts the array.
 ### Output
 
+![Screenshot from 2025-03-28 14-15-23](https://github.com/user-attachments/assets/9649b352-b8f4-4e18-becf-fddb829b79c9)
 
