@@ -110,7 +110,7 @@ The results are printed.
 ## Output
 ![Screenshot from 2025-03-28 14-12-16](https://github.com/user-attachments/assets/899f18a3-b9b8-463c-83cf-51383720a772)
 
-### Merge Sort (Ascending Order) 
+### [Merge Sort (Ascending Order)](https://github.com/gatwirival/factorialandfibb/blob/main/src/mergesortascending.java) 
 This program implements the Merge Sort algorithm to sort an array in ascending order.
 
 ### How It Works
@@ -128,7 +128,7 @@ Merge – The sorted halves are merged back together in order.
 ![Screenshot from 2025-03-28 14-14-05](https://github.com/user-attachments/assets/aedfd687-ac7e-480d-94fb-2d25e9607aa1)
 
 
-## Merge Sort (Descending Order) 
+## [Merge Sort (Descending Order)]( https://github.com/gatwirival/factorialandfibb/blob/main/src/mergesortdescending.java) 
 This  program implements Merge Sort to sort an array in descending order.
 
 ### How It Works
