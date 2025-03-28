@@ -1,5 +1,4 @@
-### Author:VALENTINE GATWIRI
-###       :EBS3/58403/22
+### Author:VALENTINE GATWIRI:EBS3/58403/22
 ## Language: Java
 ## Factorial and Fibonacci Programs
 This documentation explains two simple Java programs that calculate the factorial of a number and the Fibonacci sequence up to a given number. 
@@ -34,7 +33,8 @@ Computes the factorial recursively.
 Timing: Uses System.nanoTime() to measure how long the calculation takes.
 
 ## [Fibonacci](https://github.com/gatwirival/factorialandfibb/blob/main/src/fibonacci.java)
-What Does It Do?
+
+## What Does It Do?
 This program calculates the Fibonacci number at a specific position in the Fibonacci sequence. 
 The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones (e.g., 0, 1, 1, 2, 3, 5, 8, 13, ...).
 
@@ -52,40 +52,41 @@ It also measures how long it takes to compute the Fibonacci number.
 - Output: It prints the Fibonacci number and the time taken (in nanoseconds).
   ## Output
   
-  ## Code ![Screenshot from 2025-02-22 11-49-09](https://github.com/user-attachments/assets/389db786-ec41-4a8a-b296-3507fd827bd9)
-Highlights
+ ![Screenshot from 2025-02-22 11-49-09](https://github.com/user-attachments/assets/389db786-ec41-4a8a-b296-3507fd827bd9)
+ 
+## Code Highlights
 Method: fibonacci(int n)
 
 Computes the Fibonacci number iteratively.
 
 Timing: Uses System.nanoTime() to measure how long the calculation takes.
 
-> I prefer using iteration in fibonacci because :It iuns in O(n) time complexity instead of O(2^n).
-Works efficiently even for large numbers (e.g., 50, 100, etc.) without stack overflow.
+> I prefer using iteration in Fibonacci because It runs in O(n) time complexity instead of O(2^n).
+Works efficiently even for large numbers (e.g., 50, 100) without stack overflow.
 
-> While in factorial, recursion is better because: It is faster because it avoids function call overhead.
+ > While in factorial, recursion is better because: It is faster because it avoids function call overhead.
 Uses O(1) space, since it only maintains a single variable and has no risk of stack overflow, even for large n(number).
 
-## Insertion Sort 
+
+
+## [ Insertion Sort](https://github.com/gatwirival/factorialandfibb/blob/main/src/insertionsort.java) 
+
 This program implements the Insertion Sort algorithm to sort an array of integers in ascending order.
 
-### How It Works
-The insertionSort method iterates through the array, picking one element at a time.
-
-It shifts larger elements to the right to make space for the current element in its correct position.
-
-The sorted portion of the array grows with each iteration.
-
 ### Code Structure
-insertionSort(int[] arr) – Sorts the array using insertion sort.
+`insertionSort(int[] arr)` – Sorts the array using insertion sort.
 
-printArray(int[] arr) – Prints the array elements.
+`printArray(int[] arr)` – Prints the array elements.
 
-main(String[] args) – Runs the program with a sample array {12, 11, 13, 5, 6}.
-
+`main(String[] args)` – Runs the program with a sample array {12, 11, 13, 5, 6}.
+### How It Works
+The insertionSort method iterates through the array, picking one element at a time.It shifts larger elements to the right to make space for the current element in its correct position. The sorted portion of the array grows with each iteration.
 ### Output
+file:///home/gatwiri/Pictures/Screenshots/Screenshot%20from%202025-03-28%2013-12-02.png
+
 
 ## Matrix Operations 
+
 This program performs element-wise operations (addition, subtraction, and multiplication) on two 1D arrays.
 
 How It Works
