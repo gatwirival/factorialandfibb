@@ -1,7 +1,7 @@
 ### Author:VALENTINE GATWIRI:EBS3/58403/22
 ## Language: Java
-## COSC 333B Programs (FACTORIAL,FIBONACCI,SORTING,MATRIX)
-This documentation explains six simple Java programs that calculate the factorial of a number and the Fibonacci sequence up to a given number,implements sorting algorithms, and carry out matrix operations.
+## COSC 333B Programs (Factorial, Fibonacci,Sorting,Matrix)
+This documentation explains six simple Java programs that calculate the factorial of a number and the Fibonacci sequence up to a given number, implement sorting algorithms, and carry out matrix operations.
 
 Fibonacci and factorial  programs also measure how long it takes to perform these calculations. Let’s break it down!
 ## [Factorial](https://github.com/gatwirival/factorialandfibb/blob/main/src/factorial.java)
